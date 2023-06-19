@@ -163,6 +163,45 @@ body {
 	line-height: 1.4;
 }
 
+.statements-and-pics {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin-top: 110px;
+}
+
+.statements {
+	width: 800px;
+	padding: 10px 30px;
+	/* border-radius: 20px; */
+	font-family: Trebuchet MS, Verdana, sans-serif;
+	/* background: linear-gradient(to bottom, rgba(128, 189, 255, 0.6), rgba(128, 189, 255, 0.3)); */
+}
+
+.statements h2 {
+	margin-top: 20px;
+	font-size: 1.8em;
+	color: #ff9100;
+	text-align: center;
+}
+
+.statements h3 {
+	font-family: Trebuchet MS, Verdana, sans-serif;
+	margin-left: 30px;
+	/* background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.6)); */
+	border-radius: 10px;
+	padding: 10px;
+	line-height: 1.4;
+}
+
+.statements p {
+	font-family: Trebuchet MS, Verdana, sans-serif;
+	padding: 10px;
+	color: #1f344b;
+	margin-left: 40px;
+}
+
+
 
 
 
