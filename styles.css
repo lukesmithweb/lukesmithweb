@@ -11,7 +11,7 @@ header {
 	left: 0;
 	width: 100%;
 	padding: 5px 50px;
-	background: #6666ff;
+	background: #0072b1;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -61,7 +61,7 @@ body {
 .information h2 {
 	margin-top: 20px;
 	font-size: 1.8em;
-	color: #ff9100;
+	color: #0072b1;
 	text-align: center;
 }
 
@@ -95,7 +95,7 @@ body {
 .outline p {
 	width: 700px;
 	font-size: 1em;
-	color: #6666ff;
+	color: #0072b1;
 	font-family: Trebuchet MS, Verdana, sans-serif;
 }
 
@@ -141,7 +141,7 @@ body {
 .rights {
 	position: absolute;
 	left: 0;
-	top: 250vh;
+	top: 200vh;
 	width: 100%;
 	text-align: center;
 }
@@ -181,7 +181,7 @@ body {
 .statements h2 {
 	margin-top: 20px;
 	font-size: 1.8em;
-	color: #ff9100;
+	color: #0072b1;
 	text-align: center;
 }
 
