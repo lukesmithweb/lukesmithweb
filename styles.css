@@ -241,14 +241,14 @@ header {
 
 .outline h2 {
 	color: #ff9100;
-	font-size: 2em;
+	font-size: 1.8em;
 	font-family: Trebuchet MS, Verdana, sans-serif;
 	transition: color 0.5s ease;
 	margin-top: 5px;
 }
 
 .outline p {
-	font-size: 1.8em;
+	font-size: 1.6em;
 	color: #0072b1;
 	font-family: Trebuchet MS, Verdana, sans-serif;
 }
