@@ -285,6 +285,14 @@ header {
 	transition: color 0.5s ease;
 }
 
+.rights {
+	position: absolute;
+	left: 0;
+	top: 110vh;
+	width: 100%;
+	text-align: center;
+}
+
 
 }
 
