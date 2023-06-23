@@ -231,11 +231,8 @@ header {
 .container {
 	display: flex;
 	flex-direction: column-reverse;
-	justify-content: space-between;
 	align-items: center;
 	height: 100vh;
-	margin-top: 75px;
-	margin-bottm: 75px;
 }
 
 .outline {
