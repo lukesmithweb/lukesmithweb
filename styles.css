@@ -232,7 +232,6 @@ header {
 	display: flex;
 	flex-direction: column-reverse;
 	align-items: center;
-	height: auto;
 }
 
 .outline {
