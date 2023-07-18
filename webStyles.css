@@ -452,11 +452,13 @@ button:hover {
 		padding: 0rem 0rem;
 	}
 
-	nav a {
+	nav-items {
 		display: flex;
-		flex-direction: column;
 		justify-content: space-around;
 		align-items: center;
+	}
+
+	nav a {
 		padding: 0rem 0rem;
 	}
 	
