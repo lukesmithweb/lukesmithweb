@@ -453,6 +453,9 @@ button:hover {
 	}
 
 	nav a {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
 		padding: 0rem 0rem;
 	}
 	
