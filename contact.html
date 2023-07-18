@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width,
+		initial-scale=1.0"/>
+		<title>Let's Connect</title>
+		<link rel="stylesheet" href="webStyles.css" />
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<script src="sadieScript.js"></script>
+	</head>
+	<body>
+		<nav>
+			<div class="logo">Luke Smith</div>
+			<div class="nav-items">
+				<a href="index.html">Home</a> 
+				<a href="resume.html">Resume</a> 
+				<a href="passions.html">Passions</a>
+				<a href="contact.html">Connect</a>
+			</div>
+		</nav>
+		<section class="main-content">
+			<div class="contact-main-container">
+				<div class="contact-column-left">
+					<h1>Let's Connect!</h1>
+					<p>Want to collaborate? Me too!<br> Find me on <a href="https://www.linkedin.com/in/lukesmithslo/" target="_blank" class="linked-in">LinkedIn</a> or fill out this form.</p>
+				</div>
+				<div class="contact-column-right">
+					<form class="contact-form" action="https://formsubmit.co/lukebsmith20@outlook.com" method="POST">
+					<label>Name</label>
+					<input type="text" placeholder=" Your Name" required>
+					<label>Phone</label>
+					<input type="phone" placeholder=" Phone Number">
+					<label>Email</label>
+					<input type="email" name="email" placeholder=" Email Address" required>
+					<label>Message</label>
+					<textarea rows="6" placeholder=" Your message."></textarea>
+					<input type="hidden" name="_autoresponse" value="Thank you for contacting Sadie's Sweets. 
+						We will respond as soon as possible.">
+					<button class="send-button" type="submit">Send</button>
+				</form>
+				</div>
+			</div>
+		</section>
+		<footer class="footer-content">
+			<h1>lukesmithweb.com | <a href="https://www.linkedin.com/in/lukesmithslo" target="_blank">LinkedIn</a></h1>
+			<p class="rights">&copy; 2023 Luke Smith. All rights reserved. Created by Luke Smith</p>
+		</footer>
+	</body>
+	<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+</html>

@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Ysabeau+SC:wght@200;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Trebuchet MS', 
+		'Lucida Sans Unicode', 
+		'Lucida Grande', 'Lucida Sans', 
+		Arial, sans-serif;
+	/*background: #4a36cf;*/
+}
+
+body {
+	background-image: linear-gradient(to bottom right, #0059b3, #00aaff);
+	/*background-image: linear-gradient(120deg, darkblue, blue);*/
+}
+
+nav {
+	height: 60px;
+	/*background: #4a36cf;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+.logo {
+	color: white;
+	font-family: 'Ysabeau SC', sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 0 2rem;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 0.2rem 1.5rem;
+	transition: all 0.8s ease;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+	
+}
+
+nav a:hover {
+	color: gray;
+	/* border-bottom-color: yellow; */
+}
+
+.footer-content p {
+	background: white;
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+.rights {
+	padding-bottom: 1rem;
+}
+
+.footer-content h1 {
+	background: white;
+	/*border-top: 2px solid black;*/
+	text-align: center;
+	font-size: 1rem;
+	padding-top: 0.5rem;
+}
+
+.footer-content a {
+	color: #0077b5;
+	text-decoration: none;
+}
+
+.footer-content a:hover {
+	text-decoration: underline;
+}
+
+.footer-content {
+	display: grid;
+	width: 100%;
+	height: auto;
+}
+
+.main-container {
+	display: grid;
+	grid-template-columns: 1.2fr 0.8fr;
+	height: 100vh;
+	min-height: 500px;
+	padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+.contact-main-container {
+	display: grid;
+	grid-template-columns: 1.2fr 0.8fr;
+	height: 100vh;
+	min-height: 600px;
+	padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+.column-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: black;
+	padding: 0rem 2rem;
+}
+
+.column-left h1 {
+	margin-bottom: 1rem;
+	font-size: 3.5rem;
+	font-weight: bold;
+	color: #ff8000;
+	/*text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);*/
+}
+
+.column-left p {
+	font-size: 1.5rem;
+	line-height: 1.5;
+	color: white;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.column-left a {
+	width: 10rem;
+	height: 3.5rem;
+}
+
+.contact-column-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: black;
+	padding: 0rem 2rem;
+}
+
+.contact-column-left h1 {
+	margin-bottom: 1rem;
+	font-size: 3.5rem;
+	font-weight: bold;
+	color: #ff8000;
+	/*color: #f27222;*/
+	/*text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);*/
+}
+
+.contact-column-left p {
+	font-size: 1.5rem;
+	line-height: 1.5;
+	color: white;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.contact-column-left a {
+	width: 10rem;
+	height: 3.5rem;
+}
+
+button {
+	width: 10rem;
+	height: 3.5rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	font-size: 1.2rem;
+	border: none;
+	color: darkblue;
+	background: white;
+	cursor: pointer;
+	border-radius: 50px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+	box-shadow: none;
+	color: #ff8000;
+}
+
+.column-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0rem 2rem;
+}
+
+.contact-column-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0rem 2rem;
+}
+
+.portrait-image {
+	width: 100%;
+	max-width: 22vw;
+	height: (width*2)/3;
+	/*border-radius: 10px;*/
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-page h1 {
+	margin-top: 1rem;
+	font-size: 2rem;
+	color: black;
+}
+
+.contact-page p {
+	font-size: 1.5rem;
+	line-height: 1.5;
+	width: 50vw;
+}
+
+.linked-in {
+	text-decoration: none;
+	color: darkblue;
+	font-style: bold;
+	transition: all 0.8s ease;
+}
+
+.linked-in:hover {
+	color: #f27222;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	color: black;
+	padding: 0rem 2rem;
+	height: 80vh;
+}
+
+.contact-form input {
+	width: 40vw;
+	height: 3rem;
+	min-height: 30px;
+	background: white;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form textarea {
+	width: 40vw;
+	height: 6rem;
+	min-height: 50px;
+	background: white;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form label {
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+	color: white;
+	font-family: 'Ysabeau SC', sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.send-button {
+	padding: 0.5rem 2rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	font-size: 1rem;
+	border: none;
+	color: blue;
+	background: white;
+	cursor: pointer;
+	border-radius: 50px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.send-button:hover {
+	box-shadow: none;
+	color: #ff8000;
+}
+
+/* ------------------------------- resume.html------------------------------- */
+
+.resume-content {
+	text-align: center;
+	margin: 2rem auto;
+	padding: 3rem 4rem;
+	width: 70vw;
+	background: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.resume-content h1 {
+	font-size: 2rem;
+	font-weight: bold;
+	color: blue;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.resume-content h2 {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	color: black;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+	text-align: left;
+	padding-top: 1rem;
+}
+
+.resume-content p {
+	font-size: 0.9rem;
+	color: black;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+	text-align: left;
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
+}
+
+.side-by-side {
+	display: flex;
+	justify-content: space-around;
+}
+
+.my-qualities h2 {
+	text-align: left;
+}
+
+.my-skills h2 {
+	text-align: left;
+}
+
+/* ------------------------------- passions.html------------------------------- */
+.passion-content {
+	display: flex;
+	/*justify-content: space-around; for the slideshow*/
+	justify-content: center;
+	align-items: center;
+	width: 90vw;
+	min-height: 60vh;
+	margin: 0rem auto;
+}
+
+.slideshow-container {
+	display: block;
+	text-align: center;
+	margin: 2rem 0rem;
+}
+
+.slider-wrapper {
+	position: relative;
+	max-width: 45vw;
+	margin-left: 2rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.slider {
+	display: flex;
+	aspect-ratio: 16 / 9;
+	overflow-x: auto;
+	overflow-x: hidden;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	/*box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);*/
+}
+
+.slider img{
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+
+.slider-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.slider-nav a {
+	width: 0.75rem;
+	height: 0.75rem;
+	border-radius: 50%;
+	background-color: white;
+	opacity: 0.75;
+	transition: opacity ease 0.25s;
+}
+
+.slider-nav a:hover {
+	opacity: 1;
+}
+
+.my-passions {
+	display: block;
+	text-align: left;
+	margin: 2rem 0rem;
+	max-width: 50vw;
+}
+
+.my-passions h1 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #ff8000;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.my-passions p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	color: white;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.describe-passions {
+	background: white;
+	margin: 0rem 0rem;
+	padding: 2rem 0rem;
+}
+
+.text-descriptions {
+	width: 90vw;
+	margin: 0rem auto;
+}
+
+.text-descriptions h2 {
+	text-align: center;
+	font-size: 2.5rem;
+	color: blue;
+	padding: 1rem 0rem;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.text-descriptions h3 {
+	font-size: 1.5rem;
+	color: blue;
+	padding: 1rem 0rem;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.text-descriptions p {
+	font-size: 1rem;
+	color: black;
+	padding: 1rem 1rem;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+	nav {
+		height: 70px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0rem calc((100vw - 1300px) / 2);
+	}
+	
+	.footer-content {
+		display: block;
+		width: 100%;
+		margin-top: 0rem;
+	}
+	
+	.main-container {
+		display: block;
+		margin-top: 2rem;
+		height: auto;
+	}
+	
+	.contact-main-container {
+		display: block;
+		margin-top: 2rem;
+		height: auto;
+	}
+	
+	.column-left {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: left;
+	}
+	
+	.column-left a {
+		width: 10rem;
+		margin-bottom: 4.5rem;
+	}
+		
+	.column-right {
+		display: block;
+		margin-top: 1rem;
+	}
+	
+	.contact-column-left {
+		display: block;
+		text-align: center;
+	}
+	
+	.contact-column-left a {
+		width: 10rem;
+		margin-bottom: 4.5rem;
+	}
+		
+	.contact-column-right {
+		display: block;
+		margin-top: 1rem;
+	}
+	
+	.main-content h1 {
+		font-size: 2.5rem;
+	}
+	
+	.main-content p {
+		font-size: 1.2rem;
+	}
+	
+	.portrait-image {
+		display: block;
+		width: 100%;
+		max-width: 40vw;
+		height: (width*2)/3;
+		margin: 1rem auto;
+	}
+	
+	.contact-form {
+		display: block;
+		text-align: center;
+		padding: 1rem 0rem;
+	}
+	
+	.contact-form input {
+		width: 80vw;
+		height: 2rem;
+		min-height: 10px;
+	}
+
+	.contact-form textarea {
+		width: 80vw;
+		height: 3rem;
+		min-height: 10px;
+		
+	}
+
+	.contact-form label {
+		margin-top: 1rem;
+		display: block;
+		text-align: center;
+	}
+	
+	.resume-content {
+		width: 90vw;
+		padding: 2rem 2rem;
+	}
+	
+	.side-by-side {
+		display: block;
+	}
+	
+	.passion-content {
+		display: block;
+		text-align: center;
+		min-height: auto;
+	}
+	
+	.my-passions {
+		display: block;
+		text-align: left; /* this line 'left' and the next and the next were added for no slideshow*/
+		margin: 2rem auto; 
+		max-width: 80vw;
+	}
+	
+	.slider-wrapper {
+		position: relative;
+		max-width: 90vw;
+		margin: 1rem auto;
+		margin-left: 0rem;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	}
+	
+	.text-descriptions {
+		width: 90vw;
+	}
+}
