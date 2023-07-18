@@ -13,6 +13,7 @@
 
 body {
 	background-image: linear-gradient(to bottom right, #0059b3, #00aaff);
+	min-height: 100vh;
 	/*background-image: linear-gradient(120deg, darkblue, blue);*/
 }
 
@@ -459,7 +460,7 @@ button:hover {
 	}
 
 	nav a {
-		padding: 0rem 0rem;
+		padding: 0.2rem 0.5rem;
 	}
 	
 	.footer-content {
