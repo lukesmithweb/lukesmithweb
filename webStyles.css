@@ -449,7 +449,7 @@ button:hover {
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: center;
-		padding: 0rem calc((100vw - 1300px) / 2);
+		padding: 0rem 0rem;
 	}
 	
 	.footer-content {
@@ -475,7 +475,7 @@ button:hover {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		text-align: left;
+		text-align: center;
 	}
 	
 	.column-left a {
@@ -535,7 +535,6 @@ button:hover {
 		width: 80vw;
 		height: 3rem;
 		min-height: 10px;
-		
 	}
 
 	.contact-form label {
@@ -561,7 +560,8 @@ button:hover {
 	
 	.my-passions {
 		display: block;
-		text-align: left; /* this line 'left' and the next and the next were added for no slideshow*/
+		text-align: center; 
+		/* this line 'left' and the next were added for no slideshow*/
 		margin: 2rem auto; 
 		max-width: 80vw;
 	}
