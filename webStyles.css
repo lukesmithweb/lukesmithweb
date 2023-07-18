@@ -451,6 +451,10 @@ button:hover {
 		align-items: center;
 		padding: 0rem 0rem;
 	}
+
+	nav a {
+		padding: 0.2rem 0.5rem;
+	}
 	
 	.footer-content {
 		display: block;
