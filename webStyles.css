@@ -278,6 +278,36 @@ button:hover {
 }
 
 /* ------------------------------- resume.html------------------------------- */
+.about-me-content {
+	display: flex;
+	/*justify-content: space-around; for the slideshow*/
+	justify-content: center;
+	align-items: center;
+	width: 90vw;
+	min-height: 60vh;
+	margin: 0rem auto;
+}
+
+.about-me {
+	display: block;
+	text-align: left;
+	margin: 2rem 0rem;
+	max-width: 50vw;
+}
+
+.about-me h1 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #ff8000;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.about-me p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	color: white;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
 
 .resume-content {
 	text-align: center;
@@ -411,36 +441,38 @@ button:hover {
 }
 
 .describe-passions {
-	background: white;
-	margin: 0rem 0rem;
-	padding: 2rem 0rem;
-}
-
-.text-descriptions {
-	width: 90vw;
-	margin: 0rem auto;
-}
-
-.text-descriptions h2 {
 	text-align: center;
-	font-size: 2.5rem;
+	margin: 2rem auto;
+	padding: 3rem 4rem;
+	width: 70vw;
+	background: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.describe-passions h1 {
+	font-size: 2rem;
+	font-weight: bold;
 	color: blue;
-	padding: 1rem 0rem;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 }
 
-.text-descriptions h3 {
-	font-size: 1.5rem;
-	color: blue;
-	padding: 1rem 0rem;
-	text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
-}
-
-.text-descriptions p {
-	font-size: 1rem;
+.describe-passions h2 {
+	font-size: 1.2rem;
+	line-height: 1.5;
 	color: black;
-	padding: 1rem 1rem;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+	text-align: left;
+	padding-top: 1rem;
+}
+
+.describe-passions p {
+	font-size: 0.9rem;
+	color: black;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+	text-align: left;
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
+	padding-right: 1rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -555,8 +587,21 @@ button:hover {
 	}
 	
 	.resume-content {
-		width: 90vw;
+		text-align: center;
+		margin: 0rem auto;
 		padding: 2rem 2rem;
+		width: 100%;
+		background: white;
+		box-shadow: none;
+	}
+	
+	.describe-passions {
+		text-align: center;
+		margin: 0rem auto;
+		padding: 2rem 2rem;
+		width: 100%;
+		background: white;
+		box-shadow: none;
 	}
 	
 	.side-by-side {
@@ -575,6 +620,20 @@ button:hover {
 		/* this line 'left' and the next were added for no slideshow*/
 		margin: 2rem auto; 
 		max-width: 80vw;
+	}
+	
+	.about-me {
+		display: block;
+		text-align: center; 
+		/* this line 'left' and the next were added for no slideshow*/
+		margin: 2rem auto; 
+		max-width: 80vw;
+	}
+	
+	.about-me-content {
+		display: block;
+		text-align: center;
+		min-height: auto;
 	}
 	
 	.slider-wrapper {
